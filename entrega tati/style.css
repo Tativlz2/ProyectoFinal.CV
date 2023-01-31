@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    text-decoration-style: solid;
+    list-style:symbols();
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background: linear-gradient(#3ce0f6, #d81baf);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    height: 100%;
+}
+
+.hero-info h1{
+    font-size: 100px;
+    width: 100%;
+    max-width: 100%;
+    font-weight: 850;
+    background: blueviolet;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 80px;
+    font-weight: 400px;
+    padding: 60px;
+    gap: 50px;
+    background: linear-gradient(to top, rgb(78, 6, 222), rgb(205, 69, 92));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.informacion {
+    display: inline-flex;
+    gap: 90px;
+}
+
+.informacion img{
+    padding: 50px;
+}
+
+.hero-informacion {
+font-size: 36px;
+text-decoration-style: solid;
+text-align: left;
+}
+
+.hero-info {
+    font-size: 50px;
+    text-decoration-style: none;
+    text-align:left
+}
+
+#perfil p {
+    font-size: 36px;
+    width: 100%;
+    justify-content: center;
+}
+
+li{
+    font-size: 36px;
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+
+.footer {
+    padding: 2rem;
+    background: purple;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+
